@@ -1,18 +1,15 @@
-import React from "react";
+import React from 'react';
 import './Navigation.css';
 import a from '../../media/a.png';
 
-const Navbar = () => {
-    return (
-        <nav className="navbar">
-            <img src={ a } alt="logo" />
-            <div className="menu"></div>
-            <button type="button" className="contact-btn">
-                <img src="" alt="contact image" />
-                Contact Me
-            </button>
-        </nav>
-    );
-}
+const Navbar = () => (
+  <nav className="navbar">
+    <img src={a} alt="logo" />
+    <div className="menu" />
+    <button type="button" className="contact-btn">
+      Contact Me
+    </button>
+  </nav>
+);
 
 export default Navbar;

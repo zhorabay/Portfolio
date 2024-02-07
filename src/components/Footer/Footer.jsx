@@ -1,10 +1,8 @@
-import React from "react";
+import React from 'react';
 import './Footer.css';
 
-const Footer = () => {
-    return (
-        <nav className="footer"> Footer</nav>
-    );
-}
+const Footer = () => (
+  <nav className="footer"> Footer</nav>
+);
 
 export default Footer;

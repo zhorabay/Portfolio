@@ -1,10 +1,8 @@
-import React from "react";
+import React from 'react';
 import './Contact.css';
 
-const Contact = () => {
-    return (
-        <nav className="contact">Contact</nav>
-    );
-}
+const Contact = () => (
+  <nav className="contact">Contact</nav>
+);
 
 export default Contact;
