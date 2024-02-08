@@ -5,3 +5,8 @@
   background: transparent;
   text-decoration: none;
 }
+
+.main-page {
+  background-color: rgb(93, 93, 93);
+  min-height: 100vh;
+}

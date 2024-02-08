@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './Projects.css';
 
 const About = () => (
   <nav className="about">About</nav>
