@@ -1,20 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
-import a from '../../media/a.png';
 
 const Navbar = () => (
   <nav className="navbar">
-    <img src={a} alt="logo" className="nav-img" />
     <ul className="menu">
-      <li className="menu-link"><Link to="/main">Main</Link></li>
-      <li className="menu-link"><Link to="/projects">Projects</Link></li>
-      <li className="menu-link"><Link to="/education">Education</Link></li>
-      <li className="menu-link"><Link to="/experience">Working experiences</Link></li>
+      <li className="menu-link"><Link className="menu-link-l" to="/">Home</Link></li>
+      <li className="menu-link"><Link className="menu-link-l" to="/about">About</Link></li>
+      <li className="menu-link"><Link className="menu-link-l" to="/projects">Projects</Link></li>
+      <li className="menu-link"><Link className="nav-name" to="/">A</Link></li>
+      <li className="menu-link"><Link className="menu-link-l" to="/education">Education</Link></li>
+      <li className="menu-link"><Link className="menu-link-l" to="/blog">Blog</Link></li>
+      <li className="menu-link"><Link className="menu-link-l" to="/contact">Contact</Link></li>
     </ul>
-    <button type="button" className="contact-btn">
-      <Link to="/contact">Contact Me</Link>
-    </button>
   </nav>
 );
 
