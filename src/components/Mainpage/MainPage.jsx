@@ -22,13 +22,13 @@ const MainPage = () => (
       <h4 className="follow">Follow me on:</h4>
       <hr className="hr" />
       <div>
-        <a href="https://github.com/zhorabay" className="icons" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/zhorabay" className="icons" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <FaGithub size={30} />
         </a>
-        <a href="https://www.linkedin.com/in/zhorabay" className="icons" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/zhorabay" className="icons" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <FaLinkedin size={30} />
         </a>
-        <a href="https://medium.com/@assem.zhorabay" className="icons" target="_blank" rel="noopener noreferrer">
+        <a href="https://medium.com/@assem.zhorabay" className="icons" target="_blank" rel="noopener noreferrer" aria-label="Medium">
           <FaMedium size={30} />
         </a>
       </div>
