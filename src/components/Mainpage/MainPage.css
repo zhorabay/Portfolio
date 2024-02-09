@@ -9,7 +9,7 @@
 
 .main-page {
   display: grid;
-  grid-template-columns: 800px 380px 100px;
+  grid-template-columns: 700px 280px 200px;
   grid-template-rows: 500px;
   align-items: center;
   justify-content: center;
@@ -42,9 +42,20 @@
   border-radius: 30px;
   background-color: #5344A9;
   border: 1px solid #5344A9;
-  color: white;
-  font-size: 18px;
+  color: #fff;
   width: 26%;
+  font-size: 18px;
+}
+
+.cv-btn:hover {
+  background-color: white;
+  border: 1px solid #5344A9;
+  color: #5344A9;
+}
+
+.icons {
+  color: #5344A9;
+  padding-left: 10px;
 }
 
 .main-img {
@@ -55,9 +66,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 30px;
   transform: rotate(90deg);
   color: #5344A9;
+  width: 400px;
 }
 
 .hr {

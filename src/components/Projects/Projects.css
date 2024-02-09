@@ -5,3 +5,39 @@
   background: transparent;
   text-decoration: none;
 }
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.carousel {
+  height: 500px;
+  width: 800px;
+  border-radius: 40px;
+  box-shadow: 5px 10px 15px #5344a9;
+}
+
+.projects-img {
+  height: 500px;
+  width: 800px;
+  opacity: 0.8;
+  border-radius: 40px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #5344a9;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.caption {
+  background-color: #5344a9bc;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 30px;
+}
