@@ -48,6 +48,9 @@
 
 - **[Home Page]**
 - **[About Page]**
+- **[Projects Page]**
+- **[Education Page]**
+- **[Blog Page]**
 - **[Contact Page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -55,7 +58,7 @@
 
 ### Live Demo <a name="live-demo"></a>
 
-- [Live Demo link]()
+- [Live Demo link](https://portfolio-o6he.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
