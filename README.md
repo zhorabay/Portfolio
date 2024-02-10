@@ -6,7 +6,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Portfolio\] ](#-portfolio-)
+- [📖 \Portfolio\ ](#-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,7 +26,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**[Portfolio]** demonstrates information about myself and my projects. 
+**Portfolio** demonstrates information about myself and my projects. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
