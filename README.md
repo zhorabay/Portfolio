@@ -24,7 +24,7 @@
 
 
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 **[Portfolio]** demonstrates information about myself and my projects. 
 
