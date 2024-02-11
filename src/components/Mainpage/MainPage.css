@@ -76,3 +76,15 @@
   border: 0.2px solid #5344a9;
   margin: 0 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .main-page {
+    grid-template-columns: 370px;
+    grid-template-rows: 500px 540px 100px;
+    margin-top: 20px;
+  }
+
+  .follow-me {
+    transform: none;
+  }
+}
