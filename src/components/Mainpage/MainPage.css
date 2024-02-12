@@ -80,8 +80,8 @@
 @media screen and (max-width: 768px) {
   .main-page {
     grid-template-columns: 370px;
-    grid-template-rows: 500px 540px 100px;
-    margin-top: 20px;
+    grid-template-rows: 700px 540px 100px;
+    margin: 20px 0;
   }
 
   .follow-me {

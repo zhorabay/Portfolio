@@ -40,4 +40,17 @@
   color: #fff;
   font-weight: 500;
   border-radius: 30px;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    height: 650px;
+    width: 370px;
+  }
+
+  .projects-img{
+    height: 700px;
+    width: 1000px;
+  }
 }
