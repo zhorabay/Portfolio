@@ -60,6 +60,12 @@
     margin: 20px 0;
   }
 
+  .about h2 {
+    margin-top: 13%;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
   .experience-1,
   .experience-2 {
     width: 80%;

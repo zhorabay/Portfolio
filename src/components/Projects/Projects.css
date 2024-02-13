@@ -48,6 +48,12 @@
     margin-top: 20px;
   }
 
+  .projects h2 {
+    margin-top: 13%;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
   .carousel {
     height: 500px;
     width: 370px;

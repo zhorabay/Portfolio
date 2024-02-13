@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-.navbar {
+#navbar {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -55,8 +55,53 @@
   border-radius: 30px;
 }
 
+#mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
-  .navbar {
+  #navbar {
+    align-items: flex-start;
+    padding: 90px;
+    margin: 0;
+    border-radius: inherit;
+    position: fixed;
+    right: -1000px;
+    width: 100%;
+    top: 0;
+    transition: 0.3s ease-in-out;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  .menu {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 30px;
+  }
+
+  .nav-name {
     display: none;
+  }
+
+  #mobile {
+    display: inline;
+    opacity: 1;
+    position: fixed;
+    right: 30px;
+    font-size: 24px;
+  }
+
+  .fa-bars {
+    color: #5344a9;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    cursor: pointer;
   }
 }
