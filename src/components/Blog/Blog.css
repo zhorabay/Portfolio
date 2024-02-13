@@ -32,3 +32,13 @@
 .blog-img {
   width: 80%;
 }
+
+@media screen and (max-width: 768px) {
+  .blog {
+    width: 90%;
+  }
+
+  .blog-h2 {
+    font-size: 40px;
+  }
+}

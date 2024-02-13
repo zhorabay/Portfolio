@@ -44,13 +44,17 @@
 }
 
 @media screen and (max-width: 768px) {
+  .projects {
+    margin-top: 20px;
+  }
+
   .carousel {
-    height: 650px;
+    height: 500px;
     width: 370px;
   }
 
   .projects-img{
-    height: 700px;
+    height: 500px;
     width: 1000px;
   }
 }
