@@ -12,6 +12,10 @@ class Navbar extends Component {
     this.setState((prevState) => ({ clicked: !prevState.clicked }));
   };
 
+  handleLinkClick = () => {
+    this.setState({ clicked: false });
+  };
+
   render() {
     const { clicked } = this.state;
 
@@ -20,37 +24,37 @@ class Navbar extends Component {
         <nav id="navbar" className={clicked ? '#navbar active' : '#navbar'}>
           <ul className="menu">
             <li className="menu-link">
-              <Link className="menu-link-l" to="/">
+              <Link className="menu-link-l" to="/" onClick={this.handleLinkClick}>
                 Home
               </Link>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/about">
+              <Link className="menu-link-l" to="/about" onClick={this.handleLinkClick}>
                 About
               </Link>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/projects">
+              <Link className="menu-link-l" to="/projects" onClick={this.handleLinkClick}>
                 Projects
               </Link>
             </li>
             <li className="menu-link">
-              <Link className="nav-name" to="/">
+              <Link className="nav-name" to="/" onClick={this.handleLinkClick}>
                 AZ
               </Link>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/education">
+              <Link className="menu-link-l" to="/education" onClick={this.handleLinkClick}>
                 Education
               </Link>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/blog">
+              <Link className="menu-link-l" to="/blog" onClick={this.handleLinkClick}>
                 Blog
               </Link>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/contact">
+              <Link className="menu-link-l" to="/contact" onClick={this.handleLinkClick}>
                 Contact
               </Link>
             </li>

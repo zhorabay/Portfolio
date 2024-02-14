@@ -19,3 +19,15 @@
 .contact p {
   font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .contact {
+    margin: 20px auto;
+  }
+
+  .contact h2 {
+    margin-top: 50%;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
