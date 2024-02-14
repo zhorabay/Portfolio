@@ -13,7 +13,6 @@ const MainPage = () => (
       </h2>
       <h2 className="main-h2">Full-stuck Web Developer</h2>
       <p className="main-p">Known for impeccable punctuality, problem-solving skills, and a relentless commitment to meeting deadlines. A year of intensive training in HTML5, CSS3, JavaScript, React, Redux, and Ruby on Rails. Successfully delivered more than 40 projects, adeptly handling both front-end and back-end development aspects. Former teacher and entrepreneur.</p>
-      <a className="resume-l" href="https://docs.google.com/document/d/1UPe6f3av9-H3O1piw2bIIDJs0mJCB2GSdUAo9DyOxRA/edit?usp=sharing"><button type="button" className="cv-btn">Resume</button></a>
     </div>
     <div>
       <img src={prof} alt="logo" className="main-img" />
