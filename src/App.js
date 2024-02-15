@@ -16,11 +16,11 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<About />} />
+        <Route path="/" element={<Projects />} />
+        <Route path="/" element={<Education />} />
+        <Route path="/" element={<Blog />} />
+        <Route path="/" element={<Contact />} />
       </Routes>
     </Router>
   );

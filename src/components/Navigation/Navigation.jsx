@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import './Navigation.css';
 
 class Navbar extends Component {
@@ -24,39 +24,95 @@ class Navbar extends Component {
         <nav id="navbar" className={clicked ? '#navbar active' : '#navbar'}>
           <ul className="menu">
             <li className="menu-link">
-              <Link className="menu-link-l" to="/" onClick={this.handleLinkClick}>
+              <ScrollLink
+                activeClass="active"
+                to="mainPage"
+                spy
+                smooth
+                offset={-70}
+                duration={500}
+                className="menu-link-l"
+              >
                 Home
-              </Link>
+              </ScrollLink>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/about" onClick={this.handleLinkClick}>
-                About
-              </Link>
+              <ScrollLink
+                activeClass="active"
+                to="aboutSection"
+                spy
+                smooth
+                offset={-70}
+                duration={500}
+                className="menu-link-l"
+              >
+                Experience
+              </ScrollLink>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/projects" onClick={this.handleLinkClick}>
+              <ScrollLink
+                activeClass="active"
+                to="projectsSection"
+                spy
+                smooth
+                offset={-70}
+                duration={500}
+                className="menu-link-l"
+              >
                 Projects
-              </Link>
+              </ScrollLink>
             </li>
             <li className="menu-link">
-              <Link className="nav-name" to="/" onClick={this.handleLinkClick}>
+              <ScrollLink
+                activeClass="active"
+                to="mainPage"
+                spy
+                smooth
+                offset={-70}
+                duration={500}
+                className="nav-name"
+              >
                 AZ
-              </Link>
+              </ScrollLink>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/education" onClick={this.handleLinkClick}>
+              <ScrollLink
+                activeClass="active"
+                to="educationSection"
+                spy
+                smooth
+                offset={-70}
+                duration={500}
+                className="menu-link-l"
+              >
                 Education
-              </Link>
+              </ScrollLink>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/blog" onClick={this.handleLinkClick}>
+              <ScrollLink
+                activeClass="active"
+                to="blogSection"
+                spy
+                smooth
+                offset={-70}
+                duration={500}
+                className="menu-link-l"
+              >
                 Blog
-              </Link>
+              </ScrollLink>
             </li>
             <li className="menu-link">
-              <Link className="menu-link-l" to="/contact" onClick={this.handleLinkClick}>
+              <ScrollLink
+                activeClass="active"
+                to="contactSection"
+                spy
+                smooth
+                offset={-70}
+                duration={500}
+                className="menu-link-l"
+              >
                 Contact
-              </Link>
+              </ScrollLink>
             </li>
           </ul>
         </nav>

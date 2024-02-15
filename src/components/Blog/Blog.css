@@ -33,6 +33,21 @@
   width: 80%;
 }
 
+.show-btn {
+  padding: 12px;
+  border-radius: 30px;
+  background-color: #5344a9;
+  border: 1px solid #5344a9;
+  color: #fff;
+  font-size: 18px;
+}
+
+.show-btn:hover {
+  background-color: white;
+  border: 1px solid #5344a9;
+  color: #5344a9;
+}
+
 @media screen and (max-width: 768px) {
   .blog {
     width: 90%;
