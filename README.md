@@ -10,7 +10,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-    - [Live Demo ](#live-demo-)
+  - [Live Demo ](#live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
     - [Prerequisites](#prerequisites)
@@ -46,17 +46,17 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Home Page]**
-- **[About Page]**
-- **[Projects Page]**
-- **[Education Page]**
-- **[Blog Page]**
-- **[Contact Page]**
+- **Home Page**
+- **About Page**
+- **Projects Page**
+- **Education Page**
+- **Blog Page**
+- **Contact Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Live Demo <a name="live-demo"></a>
+## Live Demo <a name="live-demo"></a>
 
 - [Live Demo link](https://portfolio-o6he.onrender.com/)
 
@@ -104,7 +104,7 @@ To install the project's dependencies, with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add UX improvements: e.g. animations, transitions]**
+- [ ] **Add UX improvements: e.g. animations, transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
