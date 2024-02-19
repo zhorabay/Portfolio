@@ -15,6 +15,19 @@
   margin: 50px 0;
 }
 
+.proj-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 0 4%;
+}
+
+.proj-lottie {
+  height: 400px;
+}
+
 .carousel {
   height: 500px;
   width: 800px;

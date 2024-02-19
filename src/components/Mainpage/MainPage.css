@@ -36,22 +36,6 @@
   font-size: 20px;
 }
 
-.cv-btn {
-  padding: 12px;
-  border-radius: 30px;
-  background-color: #5344a9;
-  border: 1px solid #5344a9;
-  color: #fff;
-  width: 26%;
-  font-size: 18px;
-}
-
-.cv-btn:hover {
-  background-color: white;
-  border: 1px solid #5344a9;
-  color: #5344a9;
-}
-
 .icons {
   color: #5344a9;
   padding-left: 10px;

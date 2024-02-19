@@ -18,6 +18,14 @@
   color: #fff;
 }
 
+.cont-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 0 4%;
+}
+
 .contact-links {
   text-decoration: underline;
   font-size: 20px;
@@ -27,6 +35,10 @@
 
 .contact p {
   font-size: 20px;
+}
+
+.cont-lottie {
+  height: 300px;
 }
 
 @media screen and (max-width: 768px) {
