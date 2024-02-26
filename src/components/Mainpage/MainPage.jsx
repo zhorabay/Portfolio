@@ -1,4 +1,5 @@
 import React from 'react';
+import Lottie from 'lottie-react';
 import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
 import About from '../About/About';
 import Education from '../Education/Education';
@@ -6,7 +7,9 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Blog from '../Blog/Blog';
 import './MainPage.css';
-import prof from '../../media/prof.png';
+// import prof from '../../media/prof.png';
+import down from '../../media/down.json';
+import comp from '../../media/comp.json';
 
 const MainPage = () => (
   <>
@@ -20,9 +23,11 @@ const MainPage = () => (
           </h2>
           <h2 className="main-h2">Full-stuck Web Developer</h2>
           <p className="main-p">Known for impeccable punctuality, problem-solving skills, and a relentless commitment to meeting deadlines. A year of intensive training in HTML5, CSS3, JavaScript, React, Redux, and Ruby on Rails. Successfully delivered more than 40 projects, adeptly handling both front-end and back-end development aspects. Former teacher and entrepreneur.</p>
+          <Lottie animationData={down} className="main-lottie" />
         </div>
         <div>
-          <img src={prof} alt="logo" className="main-img" />
+          <Lottie animationData={comp} className="main-img" />
+          {/* <img src={prof} alt="logo" className="main-img" /> */}
         </div>
         <div className="follow-me">
           <h4 className="follow">Follow me on:</h4>
