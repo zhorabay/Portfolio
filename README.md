@@ -58,7 +58,7 @@
 
 ## Live Demo <a name="live-demo"></a>
 
-- [Live Demo link](https://portfolio-o6he.onrender.com/)
+- [Live Demo link](https://assem-zhorabay.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
