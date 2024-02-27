@@ -1,8 +1,9 @@
 import React from 'react';
-import tutor from '../../media/tutor.jpeg';
-import teach from '../../media/teach.webp';
-import guide from '../../media/guide.jpeg';
-import dev from '../../media/dev.avif';
+import Lottie from 'lottie-react';
+import developer from '../../media/developer.json';
+import teacher from '../../media/teacher.json';
+import trainer from '../../media/trainer.json';
+import guide from '../../media/guide.json';
 import './About.css';
 
 const About = () => (
@@ -15,10 +16,10 @@ const About = () => (
         <p>Aug 2023 - Present</p>
         <p>Romania · Remote</p>
       </div>
-      <img src={dev} alt="dev" className="about-img" />
+      <Lottie animationData={developer} className="about-img" />
     </div>
     <div className="experience-2">
-      <img src={teach} alt="teach" className="about-img" />
+      <Lottie animationData={teacher} className="about-img" />
       <div className="card-f">
         <h3>English Language Teacher</h3>
         <p>ICHB Colentina · Full-time</p>
@@ -33,10 +34,10 @@ const About = () => (
         <p>Nov 2021 - Aug 2022</p>
         <p>Kyiv, Ukraine</p>
       </div>
-      <img src={tutor} alt="tutor" className="about-img" />
+      <Lottie animationData={trainer} className="about-img" />
     </div>
     <div className="experience-2">
-      <img src={teach} alt="teach" className="about-img" />
+      <Lottie animationData={teacher} className="about-img" />
       <div className="card-f">
         <h3>English Language Teacher</h3>
         <p>SPECTRUM INTERNATIONAL SCHOOL · Full-time</p>
@@ -51,7 +52,7 @@ const About = () => (
         <p>May 2017 - Sep 2017</p>
         <p>Astana, Kazakhstan</p>
       </div>
-      <img src={guide} alt="guide" className="about-img" />
+      <Lottie animationData={guide} className="about-img" />
     </div>
   </div>
 );

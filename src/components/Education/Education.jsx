@@ -1,5 +1,6 @@
 import React from 'react';
-import tutor from '../../media/tutor.jpeg';
+import Lottie from 'lottie-react';
+import study from '../../media/study.json';
 import './Education.css';
 
 const Education = () => (
@@ -11,10 +12,10 @@ const Education = () => (
         <p>Remote Full Stack Web Development Program</p>
         <p>June 2023 - Feb 2024</p>
       </div>
-      <img src={tutor} alt="tutor" className="about-img" />
+      <Lottie animationData={study} className="about-img" />
     </div>
     <div className="experience-2">
-      <img src={tutor} alt="tutor" className="about-img" />
+      <Lottie animationData={study} className="about-img" />
       <div className="card-f">
         <h3>Syrdarya University</h3>
         <p>Master of Education - MEd, English/Language Arts Teacher</p>
@@ -27,7 +28,7 @@ const Education = () => (
         <p>Bachelor of Education - BEd, Teaching English as a Second or Foreign Language</p>
         <p>Sep 2015 - Jul 2019</p>
       </div>
-      <img src={tutor} alt="tutor" className="about-img" />
+      <Lottie animationData={study} className="about-img" />
     </div>
   </div>
 );

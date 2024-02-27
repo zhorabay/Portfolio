@@ -50,11 +50,17 @@
 }
 
 .caption {
-  background-color: #5344a9bc;
-  color: #fff;
+  background-color: #fff;
+  color: black;
   font-weight: 500;
   border-radius: 30px;
   padding: 10px 20px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.pr-link {
+  font-size: 20px;
+  padding: 0 8px;
 }
 
 @media screen and (max-width: 768px) {
