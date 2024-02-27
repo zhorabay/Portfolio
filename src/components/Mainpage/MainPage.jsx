@@ -42,6 +42,7 @@ const MainPage = () => {
             </h2>
             <h2 className="main-h2">Full-stuck Web Developer</h2>
             <p className="main-p">Known for impeccable punctuality, problem-solving skills, and a relentless commitment to meeting deadlines. A year of intensive training in HTML5, CSS3, JavaScript, React, Redux, and Ruby on Rails. Successfully delivered more than 40 projects, adeptly handling both front-end and back-end development aspects. Former teacher and entrepreneur.</p>
+            <h2 className="main-head2">SKILLS</h2>
             <div className="skills">
               <FaHtml5 size={50} className="skill" />
               <IoLogoCss3 size={50} className="skill" />

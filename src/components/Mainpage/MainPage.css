@@ -14,10 +14,15 @@
   align-items: center;
   justify-content: center;
   margin: 60px;
+  margin-top: 90px;
 }
 
 .main-h2 span {
   color: #5344a9;
+}
+
+svg {
+  transform: none !important;
 }
 
 .main-intro {
@@ -30,6 +35,17 @@
 
 .main-h2 {
   font-size: 50px;
+}
+
+.main-head2 {
+  font-size: 30px;
+  color: #5344a9;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.main-head2:hover {
+  letter-spacing: 4px;
 }
 
 .main-p {
@@ -81,12 +97,16 @@
 @media screen and (max-width: 768px) {
   .main-page {
     grid-template-columns: 370px;
-    grid-template-rows: 800px 540px 100px;
+    grid-template-rows: 800px 450px 100px;
     margin: 20px 0;
   }
 
   .follow-me {
     transform: none;
     width: 100%;
+  }
+
+  .main-img {
+    width: 90%;
   }
 }

@@ -7,14 +7,17 @@
 }
 
 #navbar {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 4px 16px;
   background-color: #5344a9;
-  border: 1px solid #5344a9;
+  border: 2px solid #fff;
   border-radius: 50px;
-  margin: 20px 60px;
+  margin: 0 60px;
+  top: 20px;
+  z-index: 1000;
 }
 
 .menu {
