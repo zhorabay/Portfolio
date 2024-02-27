@@ -61,15 +61,27 @@
   margin: 0 15px;
 }
 
-.main-lottie {
-  color: #5344a9;
-  height: 100px;
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+
+.skill {
+  background-color: #272b47;
+  color: rgb(255, 166, 0);
+  border-radius: 8px;
+}
+
+.skill:hover {
+  box-shadow: 2px 5px 5px grey;
 }
 
 @media screen and (max-width: 768px) {
   .main-page {
     grid-template-columns: 370px;
-    grid-template-rows: 700px 540px 100px;
+    grid-template-rows: 800px 540px 100px;
     margin: 20px 0;
   }
 

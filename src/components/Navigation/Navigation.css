@@ -97,6 +97,9 @@
   .fa-bars {
     color: #5344a9;
     cursor: pointer;
+    background-color: #fff;
+    padding: 1px 3px;
+    border-radius: 4px;
   }
 
   .fa-times {
