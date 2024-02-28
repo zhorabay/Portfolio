@@ -32,6 +32,7 @@ class Navbar extends Component {
                 offset={-70}
                 duration={500}
                 className="menu-link-l"
+                onClick={this.handleLinkClick}
               >
                 Home
               </ScrollLink>
@@ -45,6 +46,7 @@ class Navbar extends Component {
                 offset={-70}
                 duration={500}
                 className="menu-link-l"
+                onClick={this.handleLinkClick}
               >
                 Experience
               </ScrollLink>
@@ -58,11 +60,12 @@ class Navbar extends Component {
                 offset={-70}
                 duration={500}
                 className="menu-link-l"
+                onClick={this.handleLinkClick}
               >
                 Projects
               </ScrollLink>
             </li>
-            <li className="menu-link">
+            <li className="menu-link-name">
               <ScrollLink
                 activeClass="active"
                 to="mainPage"
@@ -84,6 +87,7 @@ class Navbar extends Component {
                 offset={-70}
                 duration={500}
                 className="menu-link-l"
+                onClick={this.handleLinkClick}
               >
                 Education
               </ScrollLink>
@@ -97,6 +101,7 @@ class Navbar extends Component {
                 offset={-70}
                 duration={500}
                 className="menu-link-l"
+                onClick={this.handleLinkClick}
               >
                 Blog
               </ScrollLink>
@@ -110,6 +115,7 @@ class Navbar extends Component {
                 offset={-70}
                 duration={500}
                 className="menu-link-l"
+                onClick={this.handleLinkClick}
               >
                 Contact
               </ScrollLink>

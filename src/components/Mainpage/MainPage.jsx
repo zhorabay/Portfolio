@@ -31,7 +31,6 @@ const MainPage = () => {
 
   return (
     <>
-      {showBackToTop && <BackToTopButton />}
       <section id="mainPage">
         <div className="main-page">
           <div className="main-intro">
@@ -81,6 +80,7 @@ const MainPage = () => {
       <section id="educationSection"><Education /></section>
       <section id="blogSection"><Blog /></section>
       <section id="contactSection"><Contact /></section>
+      {showBackToTop && <BackToTopButton />}
     </>
   );
 };
